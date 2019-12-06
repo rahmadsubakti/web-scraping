@@ -1,0 +1,594 @@
+
+<!DOCTYPE html>
+<html lang="id-id" dir="ltr"
+	  class='com_content view-featured itemid-101 home j39 mm-hover'>
+
+<head>
+	<base href="https://hargapangan.id/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="MYOB" />
+	<title>PIHPS Nasional - Beranda</title>
+	<link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+	<link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+	<link href="/templates/t3/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/templates/t3/local/css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/system/css/system.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/t3/local/css/template.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/t3/local/css/megamenu.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/t3/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/t3/fonts/roboto/stylesheet.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/t3/fonts/roboto-condensed/stylesheet.css" rel="stylesheet" type="text/css" />
+	<link href="/administrator/components/com_gtpihps/assets/css/datatables.min.css" rel="stylesheet" type="text/css" />
+	<link href="/administrator/components/com_gtpihps/assets/css/dataTables.fontAwesome.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_gtpihps_map/css/stylesheet.css" rel="stylesheet" type="text/css" />
+	<link href="/administrator/components/com_gtpihps/assets/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+.container {width: 1124px !important;} .t3-wrapper, .wrap {min-width: 1124px !important;}
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"56fdbeccce5eaa6bf0b44ec12d227871","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/component\/ajax\/?format=json"}}</script>
+	<script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js?0cf9152b322293f1a6a6128d3f967c22" type="text/javascript"></script>
+	
+	<script src="/media/jui/js/jquery-noconflict.js?0cf9152b322293f1a6a6128d3f967c22" type="text/javascript"></script>
+	
+	<script src="/plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/jquery.tap.min.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/script.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/menu.js" type="text/javascript"></script>
+	<script src="/templates/t3/js/script.js" type="text/javascript"></script>
+	<script src="/administrator/components/com_gtpihps/assets/js/datatables.min.js" type="text/javascript"></script>
+	<script src="/administrator/components/com_gtpihps/assets/js/jquery.number.min.js" type="text/javascript"></script>
+	<script src="/administrator/components/com_gtpihps/assets/js/jquery.flot.min.js" type="text/javascript"></script>
+	<script src="/administrator/components/com_gtpihps/assets/js/jquery.blockUI.js" type="text/javascript"></script>
+	<script src="/modules/mod_gtpihps_map/js/raphael.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_gtpihps_map/js/jquery.mapael.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_gtpihps_map/js/indonesia.js" type="text/javascript"></script>
+	<script src="/modules/mod_gtpihps_map/js/script_______.js" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?0cf9152b322293f1a6a6128d3f967c22" type="text/javascript"></script>
+	<script src="/administrator/components/com_gtpihps/assets/js/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>
+	<script src="/administrator/components/com_gtpihps/assets/js/datepicker/locales/bootstrap-datepicker.id.js" type="text/javascript"></script>
+	<script src="/modules/mod_gtpihps_prices/jquery.sparkline.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_gtpihps_prices/script____.js" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/polyfill.event.js?0cf9152b322293f1a6a6128d3f967c22" type="text/javascript"></script><![endif]-->
+	<script src="/media/system/js/keepalive.js?0cf9152b322293f1a6a6128d3f967c22" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+// Set variables
+	var component_url = '/index.php?option=com_gtpihps&view=province_statistics&Itemid=114';
+
+			(function ($){
+				$(document).ready(function (){
+					$('#date_container').datepicker({"format":"dd-mm-yyyy","language":"id","endDate":"22-05-2019","minViewMode":"days"})
+				});
+			})(jQuery);
+		(function($){
+					$('#mapTab a').click(function (e)
+					{
+						e.preventDefault();
+						$(this).tab('show');
+					});
+				})(jQuery);(function($){
+				jQuery(document).ready(function($) {
+					// Handler for .ready() called.
+					var tab = $('<li class=" active"><a href="#map" data-toggle="tab"><i class="fa fa-globe"></i>&nbsp;&nbsp;Tampilan Peta</a></li>');
+					$('#mapTabTabs').append(tab);
+				});
+			})(jQuery);(function($){
+				jQuery(document).ready(function($) {
+					// Handler for .ready() called.
+					var tab = $('<li class=""><a href="#chart" data-toggle="tab"><i class="fa fa-bar-chart"></i>&nbsp;&nbsp;Histogram</a></li>');
+					$('#mapTabTabs').append(tab);
+				});
+			})(jQuery);
+// Set variables
+	var component_url = '/index.php?option=com_gtpihps';
+jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+	jQuery.noConflict();
+	(function($) {
+		$(window).load(function() {
+			$('#login-form').trigger('reset');
+			$('#login-form .input').val('');
+			$('#login-form .input').attr('autocomplete', 'off');
+		});
+	})(jQuery);
+
+	</script>
+
+	
+<!-- META FOR IOS & HANDHELD -->
+<meta name="HandheldFriendly" content="true"/>
+<meta name="apple-mobile-web-app-capable" content="YES"/>
+<!-- //META FOR IOS & HANDHELD -->
+
+
+
+
+<!-- Le HTML5 shim and media query for IE8 support -->
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+
+</head>
+
+<body class="home beranda">
+
+<div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+
+  
+<!-- MAIN NAVIGATION -->
+<nav id="t3-mainnav" class="wrap navbar navbar-default t3-mainnav">
+	<div class="container"><div class="row">
+		<!-- LOGO -->
+		<div class="logo pull-left">
+			<div class="logo-image">
+				<a href="/" title="PIHPS Nasional">
+											<img class="logo-img" src="/images/logo/logo.png" alt="PIHPS Nasional" />
+															<span>PIHPS Nasional</span>
+				</a>
+				<small class="site-slogan">Pusat Informasi Harga Pangan Strategis Nasional</small>
+			</div>
+		</div>
+		<!-- //LOGO -->
+
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header pull-left">
+		
+			
+			
+		</div>
+
+					<div class="t3-navbar-collapse navbar-collapse collapse"></div>
+		
+		<div class="t3-navbar navbar-collapse collapse">
+			<div  class="t3-megamenu" >
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav level0">
+<li itemprop='name' class="current active" data-id="101" data-level="1">
+<a itemprop='url' class=""  href="/"   data-target="#">Beranda </a>
+
+</li>
+<li itemprop='name' class="dropdown mega" data-id="113" data-level="1">
+<a itemprop='url' class=" dropdown-toggle"  href="/tabel-harga/pasar-tradisional/daerah"   data-target="#" data-toggle="dropdown">Tabel Harga<em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name' class="dropdown-submenu mega" data-id="248" data-level="2">
+<a itemprop='url' class=""  href="/tabel-harga/pasar-tradisional/daerah"   data-target="#">Pasar Tradisional</a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="114" data-level="3">
+<a itemprop='url' class=""  href="/tabel-harga/pasar-tradisional/daerah"   data-target="#">Berdasarkan Daerah </a>
+
+</li>
+<li itemprop='name'  data-id="123" data-level="3">
+<a itemprop='url' class=""  href="/tabel-harga/pasar-tradisional/komoditas"   data-target="#">Berdasarkan Komoditas </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown-submenu mega" data-id="249" data-level="2">
+<a itemprop='url' class=""  href="/tabel-harga/pasar-tradisional/daerah"   data-target="#">Pasar Modern</a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="250" data-level="3">
+<a itemprop='url' class=""  href="/tabel-harga/pasar-modern/daerah"   data-target="#">Berdasarkan Daerah </a>
+
+</li>
+<li itemprop='name'  data-id="251" data-level="3">
+<a itemprop='url' class=""  href="/tabel-harga/pasar-modern/komoditas"   data-target="#">Berdasarkan Komoditas </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown-submenu mega" data-id="252" data-level="2">
+<a itemprop='url' class=""  href="/tabel-harga/pasar-tradisional/daerah"   data-target="#">Pedagang Besar</a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="253" data-level="3">
+<a itemprop='url' class=""  href="/tabel-harga/pedagang-besar/daerah"   data-target="#">Berdasarkan Daerah </a>
+
+</li>
+<li itemprop='name'  data-id="254" data-level="3">
+<a itemprop='url' class=""  href="/tabel-harga/pedagang-besar/komoditas"   data-target="#">Berdasarkan Komoditas </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown mega" data-id="245" data-level="1">
+<a itemprop='url' class=" dropdown-toggle"  href="/informasi/faq"   data-target="#" data-toggle="dropdown">Informasi<em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="246" data-level="2">
+<a itemprop='url' class=""  href="/informasi/faq"   data-target="#">FAQ </a>
+
+</li>
+<li itemprop='name'  data-id="247" data-level="2">
+<a itemprop='url' class=""  href="/informasi/tutorial"   data-target="#">Tutorial </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown mega" data-id="120" data-level="1">
+<a itemprop='url' class=" dropdown-toggle"  href="#"   data-target="#" data-toggle="dropdown"><img src="/images/menu/user.png" alt="User" /><em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  style="width: 250px"  data-width="250"><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-module" data-width="12" data-position="92"><div class="mega-inner">
+<div class="t3-module module  " id="Mod92"><div class="module-inner"><div class="module-ct"><form action="/" method="post" id="login-form">
+	<div id="form-login-username" class="form-group">
+		<div class="input-group">
+			<span class="input-group-addon"><i class="fa fa-user fa-fw" title="Nama Pengguna"></i></span>
+			<input id="modlgn-username" type="text" name="username" class="input required" tabindex="0" size="18" placeholder="Nama Pengguna" required aria-required="true" />
+		</div>
+	</div>
+	<div id="form-login-password" class="form-group">
+		<div class="input-group">
+			<span class="input-group-addon"><i class="fa fa-lock fa-fw" title="Sandi"></i></span>
+			<input id="modlgn-passwd" type="password" name="password" class="input required" tabindex="0" size="18" placeholder="Sandi" required aria-required="true" />
+		</div>
+	</div>
+
+		<div id="form-login-remember" class="form-group">
+		<label for="modlgn-remember" class="checkbox"><input id="modlgn-remember" type="checkbox" name="remember" class="input" value="yes"/> Ingatkan Saya</label>
+	</div>
+		<div class="form-group">
+		<input type="submit" name="Submit" class="btn btn-primary" value="Masuk" />
+	</div>
+	
+	<ul class="list-unstyled">
+				<li>
+			<a href="/forgot-username">
+			  Lupa Nama Pengguna?</a>
+		</li>
+		<li>
+			<a href="/forgot-password">Lupa Sandi Anda?</a>
+		</li>
+	</ul>
+	<input type="hidden" name="option" value="com_users" />
+	<input type="hidden" name="task" value="user.login" />
+	<input type="hidden" name="return" value="aHR0cHM6Ly9oYXJnYXBhbmdhbi5pZC8=" />
+	<input type="hidden" name="56fdbeccce5eaa6bf0b44ec12d227871" value="1" /></form>
+</div></div></div>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div>
+
+			<div class="pull-right">
+
+<div class="custom"  >
+	<p style="margin: 0;"><a href="https://play.google.com/store/apps/details?id=com.gamatechno.pihpsnasional&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-ap-PartBadge-Mar2515-1" target="_blank" rel="noopener noreferrer"><img src="/images/badge/googleplay.svg" alt="Get it on Google Play" width="135px" height="40px" style="margin: 16px 0;" /></a> <a href="https://itunes.apple.com/tr/app/harga-pangan-pihps-nasional/id1192706955?mt=8" target="_blank" rel="noopener noreferrer"><img src="/images/badge/appstore.svg" alt="Download on the App Store" width="135px" height="40px" style="margin: 16px 0;" /></a></p></div>
+</div>
+		</div>
+	</div></div>
+</nav>
+<!-- //MAIN NAVIGATION -->
+
+
+  
+	<!-- SPOTLIGHT 1 -->
+	<div class="container t3-sl t3-sl-1">
+					<!-- SPOTLIGHT -->
+	<div class="t3-spotlight t3-spotlight-1  row">
+					<div class="col-xs-12">
+								<div class="t3-module module  " id="Mod95"><div class="module-inner"><div class="module-ct"><div id="mod_gtpihps_map-95" class="mod_gtpihps_map">
+	<h3>Informasi Harga Pangan Antar Daerah</h3>
+	<form class="form-vertical" role="form" id="mapForm" name="mapForm" method="post" action="">
+		<input type="hidden" name="1c7c53b56004e7f0422f59baaaa7c10b" value="1" />		<div class="row-fluid">
+			<div class="control-group col-md-3">
+				<label class="hasTip" for="commodity_id">Komoditas</label>
+				<div class="controls">
+					<select id="commodity_id" name="commodity_id" class="form-control">
+	<option value="cat-1" selected="selected">Beras</option>
+	<option value="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beras Kualitas Bawah I</option>
+	<option value="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beras Kualitas Bawah II</option>
+	<option value="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beras Kualitas Medium I</option>
+	<option value="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beras Kualitas Medium II</option>
+	<option value="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beras Kualitas Super I</option>
+	<option value="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beras Kualitas Super II</option>
+	<option value="cat-2">Daging Ayam</option>
+	<option value="7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daging Ayam Ras Segar</option>
+	<option value="cat-3">Daging Sapi</option>
+	<option value="8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daging Sapi Kualitas 1</option>
+	<option value="9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daging Sapi Kualitas 2</option>
+	<option value="cat-4">Telur Ayam</option>
+	<option value="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telur Ayam Ras Segar
+</option>
+	<option value="cat-5">Bawang Merah</option>
+	<option value="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bawang Merah Ukuran Sedang</option>
+	<option value="cat-6">Bawang Putih</option>
+	<option value="12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bawang Putih Ukuran Sedang</option>
+	<option value="cat-7">Cabai Merah</option>
+	<option value="13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cabai Merah Besar</option>
+	<option value="14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cabai Merah Keriting </option>
+	<option value="cat-8">Cabai Rawit</option>
+	<option value="15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cabai Rawit Hijau</option>
+	<option value="16">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cabai Rawit Merah</option>
+	<option value="cat-9">Minyak Goreng</option>
+	<option value="17">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Minyak Goreng Curah</option>
+	<option value="18">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Minyak Goreng Kemasan Bermerk 1</option>
+	<option value="19">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Minyak Goreng Kemasan Bermerk 2</option>
+	<option value="cat-10">Gula Pasir</option>
+	<option value="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gula Pasir Kualitas Premium</option>
+	<option value="21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gula Pasir Lokal</option>
+</select>
+				</div>
+			</div>
+			<div class="control-group col-md-2">
+				<label class="hasTip" for="price_type_id">Jenis Pasar</label>
+				<div class="controls">
+					<select id="price_type_id" name="price_type_id" class="form-control">
+	<option value="1" selected="selected">Pasar Tradisional</option>
+	<option value="2">Pasar Modern</option>
+	<option value="3">Pedagang Besar</option>
+</select>
+				</div>
+			</div>
+			<div class="control-group col-md-2">
+				<label class="hasTip" for="data_type">Jenis Informasi Harga</label>
+				<div class="controls">
+					<select id="data_type" name="data_type" class="form-control">
+	<option value="price">Perbandingan Harga</option>
+	<option value="fluctuation">Perubahan Harga (Inflasi Daerah)</option>
+	<option value="fluctuation2">Perubahan Harga (Inflasi Nasional)</option>
+</select>
+				</div>
+			</div>
+			<div class="control-group col-md-2">
+				<label class="hasTip" for="date">Tanggal</label>
+				<div class="controls">
+					<div class="input-group date" id="date_container"><span class="input-group-addon btn btn-danger" onclick="jQuery(this).next().val(null)"><i class="fa fa-times"></i></span><input type="text" class="form-control" readonly="" style="background-color:white" value="21-05-2019" id="date" name="date"><span class="input-group-addon btn btn-info"><i class="fa fa-calendar"></i></span></div>				</div>
+			</div>
+			<div class="control-group col-md-2">
+				<label class="hasTip" for="layout">Periode Perbandingan</label>
+				<div class="controls">
+					<select id="layout" name="layout" class="form-control">
+	<option value="default">Day to Day (DTD)</option>
+	<option value="wtw">Week to Week (WTW)</option>
+	<option value="mtm">Month to Month (MTM)</option>
+</select>
+				</div>
+			</div>
+			<div class="control-group col-md-1">
+				<button class="btn btn-primary btn-lg btn-block" type="submit"><i class="fa fa-fw fa-arrow-down"></i></button>
+			</div>
+		</div>
+	</form>
+	<div class="row data-display">
+		<div class="col-md-9">
+			
+<ul class="nav nav-tabs" id="mapTabTabs"></ul>
+<div class="tab-content" id="mapTabContent">			
+<div id="map" class="tab-pane active">
+			<div class="map-container">
+				<div class="map"></div>
+				<div class="areaLegend" style="margin:-50px 0 0 20px"></div>
+				<div class="areaLegendDesc" style="margin-left:20px">
+					<div class="fluc" style="display:none;">
+						<div class="pull-left" style="width:100px">Harga<br/> Turun</div>
+						<div class="pull-left text-center" style="width:100px">Harga<br/> Tetap</div>
+						<div class="pull-left text-right" style="width:100px">Harga<br/> Naik</div>
+						<div class="pull-left text-center" style="width:60px">Tidak<br/> Update</div>
+						<div class="pull-left text-center" style="width:60px">Tidak<br/> Ada Data</div>
+					</div>
+					<div class="price" style="display:none;">
+						<div class="pull-left" style="width:100px">Harga<br/> Terendah</div>
+						<div class="pull-left" style="width:100px">&nbsp;</div>
+						<div class="pull-left text-right" style="width:100px">Harga<br/> Tertinggi</div>
+						<div class="pull-left text-center" style="width:60px">Tidak<br/> Update</div>
+						<div class="pull-left text-center" style="width:60px">Tidak<br/> Ada Data</div>
+					</div>
+				</div>
+			</div>
+			
+</div>
+			
+<div id="chart" class="tab-pane">
+			<div class="chart-container">
+				<h5></h5>
+				<div></div>
+			</div>
+			
+</div>			
+</div>		</div>
+		<div class="col-md-3">
+			<div class="table-container">
+				<table class="table table-bordered table-condensed"></table>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" tabindex="-1" role="dialog" id="provinceModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close hasTooltip" data-dismiss="modal" aria-label="Close" title="Tutup"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title"></h4>
+				</div>
+				<div class="modal-body">
+					<div id="contentLoad" class="content text-center" style="padding:50px 0">
+						<span class="fa fa-spinner fa-spin" style="font-size:4em"></span>
+						<div style="font-size:2em">Memuat data...</div>
+					</div>
+					<div id="contentTable" class="content" style="opacity:0; height:0px; overflow:hidden">
+						<table class="table table-bordered table-condensed table-province"></table>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="#" class="btn btn-success" id="contentDownload" style="display:none"><i class="fa fa-download"></i> Download Tabel</a>
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div></div></div><div class="t3-module module  " id="Mod99"><div class="module-inner"><div class="module-ct"><div id="pricelist-99" class="mod_gtpihps_prices pricelist">
+	<h3>Harga Rata-Rata dan Perubahan <small id="pricelist_date" class="date" date=""></small>&nbsp;&nbsp;<select id="pricelist_province_id" name="pricelist_province_id" style="margin:0">
+	<option value="0">Semua Provinsi</option>
+	<option value="1">Aceh</option>
+	<option value="2">Sumatera Utara</option>
+	<option value="3">Sumatera Barat</option>
+	<option value="4">Riau</option>
+	<option value="5">Kepulauan Riau</option>
+	<option value="6">Jambi</option>
+	<option value="7">Bengkulu</option>
+	<option value="8">Sumatera Selatan</option>
+	<option value="9">Kepulauan Bangka Belitung</option>
+	<option value="10">Lampung</option>
+	<option value="11">Banten</option>
+	<option value="12">Jawa Barat</option>
+	<option value="13">DKI Jakarta</option>
+	<option value="14">Jawa Tengah</option>
+	<option value="15">DI Yogyakarta</option>
+	<option value="16">Jawa Timur</option>
+	<option value="17">Bali</option>
+	<option value="18">Nusa Tenggara Barat</option>
+	<option value="19">Nusa Tenggara Timur</option>
+	<option value="20">Kalimantan Barat</option>
+	<option value="21">Kalimantan Selatan</option>
+	<option value="22">Kalimantan Tengah</option>
+	<option value="23">Kalimantan Timur</option>
+	<option value="24">Kalimantan Utara</option>
+	<option value="25">Gorontalo</option>
+	<option value="26">Sulawesi Selatan</option>
+	<option value="27">Sulawesi Tenggara</option>
+	<option value="28">Sulawesi Tengah</option>
+	<option value="29">Sulawesi Utara</option>
+	<option value="30">Sulawesi Barat</option>
+	<option value="31">Maluku</option>
+	<option value="32">Maluku Utara</option>
+	<option value="33">Papua</option>
+	<option value="34">Papua Barat</option>
+</select>
+		<select id="pricelist_price_type_id" name="pricelist_price_type_id" style="margin:0">
+	<option value="1">Pasar Tradisional</option>
+	<option value="2">Pasar Modern</option>
+	<option value="3">Pedagang Besar</option>
+</select>
+		&nbsp;&nbsp;<span class="slidecontrol"><i class="fa fa-chevron-up" style="cursor: pointer"></i>  <i class="fa fa-chevron-down" style="cursor: pointer"></i></span>
+		<input type="hidden" id="pricelist_layout" value="" />
+	</h3>
+	<ul class="pricelist template" style="display:none">
+		<li><a href="javascript:void(0)" commodityID=""><div>
+			<div class="title"></div>
+			<div class="desc">
+				<div class="price_now"><span></span><div></div></div>
+				<div class="price_desc" title="">
+					<i class=""></i>&nbsp;
+					<span></span>
+				</div>
+			</div>
+			<div class="spark raw"></div>
+		</div></a></li>
+	</ul>
+	<ul class="pricelist list_all"></ul>
+	<ul class="pricelist list_price_unknown" style="display:none"></ul>
+	<ul class="pricelist list_price_still" style="display:none"></ul>
+	<ul class="pricelist list_price_up" style="display:none"></ul>
+	<ul class="pricelist list_price_down" style="display:none"></ul>
+</div></div></div></div>
+							</div>
+			</div>
+<!-- SPOTLIGHT -->
+	</div>
+	<!-- //SPOTLIGHT 1 -->
+
+
+  
+
+<div id="t3-mainbody" class="container t3-mainbody">
+	<div class="row">
+
+		<!-- MAIN CONTENT -->
+		<div id="t3-content" class="t3-content col-xs-12">
+						<div class="blog-featured" itemscope itemtype="http://schema.org/Blog">
+
+
+
+
+</div>
+
+		</div>
+		<!-- //MAIN CONTENT -->
+
+	</div>
+</div> 
+
+
+  
+
+
+  
+
+
+  
+<!-- FOOTER -->
+<footer id="t3-footer" class="wrap t3-footer">
+
+	
+	<section class="t3-copyright">
+		<div class="container">
+			<div class="copyright ">
+				<div class="module">
+	<small>Hak Cipta &#169; 2019 PIHPS Nasional - Semua Hak Dilindungi&nbsp;&nbsp;|&nbsp;&nbsp;Rekomendasi browser Chrome dan Firefox</small>
+</div>
+							</div>
+		</div>
+	</section>
+
+</footer>
+<!-- //FOOTER -->
+
+</div>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74698412-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

@@ -1,0 +1,10 @@
+{"day": "Thursday", "num": "<Insert num here!>"}
+{"day": "Thursday", "num": "<Insert num here!>"}
+{"day": "Tuesday", "num": "<Insert num here!>"}
+{"day": "Friday", "num": "<Insert num here!>"}
+{"day": "Thursday", "num": "<Insert num here!>"}
+{"day": "Thursday", "num": "<Insert num here!>"}
+{"day": "Friday", "num": "<Insert num here!>"}
+{"day": "Tuesday", "num": "<Insert num here!>"}
+{"day": "Friday", "num": "<Insert num here!>"}
+{"day": "Thursday", "num": "<Insert num here!>"}
